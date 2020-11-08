@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/itemBack"
+        android:enabled="false"
+        android:icon="@drawable/back"
+        app:showAsAction="always"
+        android:title="Back"
+        android:iconTint="#FFFFFF"
+        />
+
+    <item
+        android:id="@+id/itemForward"
+        android:enabled="false"
+        android:icon="@drawable/forward"
+        app:showAsAction="always"
+        android:iconTint="#FFFFFF"
+        android:title="Forward"
+        />
+
+    <item
+        android:id="@+id/itemHome"
+        android:enabled="false"
+        android:icon="@drawable/home"
+        app:showAsAction="always"
+        android:iconTint="#FFFFFF"
+        android:title="Home"
+        />
+
+
+
+
+
+
+</menu>
